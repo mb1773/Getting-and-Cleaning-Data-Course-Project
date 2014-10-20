@@ -78,5 +78,5 @@ for (c2 in 1:numbersubjects) {
     } 
     } 
 
-write.table(final, "data_with_averages.txt", row.name=FALSE)
+write.table(final, "tidy_data_with_averages.txt", row.name=FALSE)
 
