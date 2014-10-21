@@ -83,6 +83,8 @@ List of Variables created by run_analysis.R
  numbersubjects - number of items in unique subjects calculated using length command on the unique subjects
  numberactivities - number of activities using length command
  numberCols - number of columns in cleantraintest
+ final - used for size calculation
+ 
  
  
  
