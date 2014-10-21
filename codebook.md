@@ -79,4 +79,6 @@ List of Variablesncreated by run_analysis.R
  Sub - Created from merge of subject_train.txt and subject_test.txt into a variable Sub using rbind
  featurerows - rows from features.txt with mean and std
  cleantraintest - dataset that merges X, Y, Sub
+ uniquesubjects - unique entries from the sub data set
+ 
  
