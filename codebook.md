@@ -1,4 +1,4 @@
-Course Project Code Book – Getting And Cleaning Data
+Course Project Code Book – Getting And Cleaning Data by Monica Mitchell
 
 Github Repo: https://github.com/mb1773/Getting-and-Cleaning-Data-Course-Project.git
 
@@ -58,9 +58,7 @@ The script then merges all the data into a final data set that is saved as tidy_
 Sample of first few column headings of final file tidy_data_with_averages.txt
  	subject	activity	tbodyacc.mean.x	tbodyacc.mean.y	tbodyacc.mean.z	tbodyacc.std.x
  	
- 	The text file is not pretty to the human eye.
- 	
- 	To see pretty data set a variable equal to the text file
+4. 	The text file is not pretty to the human eye.  To see pretty data set a variable equal to the text file
  	data <- read.table("tidy_data_with_averages.txt")
 
 
