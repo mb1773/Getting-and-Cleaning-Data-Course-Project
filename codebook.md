@@ -69,7 +69,7 @@ Sample of first few column headings of final file tidy_data_with_averages.txt
  	tbodyacc-std-x
  	
 4. 	The text file is not pretty to the human eye.  To see pretty data set a variable equal to the text file
- 	data <- read.table("tidy_data_with_averages.txt")
+ 	data <- read.table("tidy_data_with_averages.txt", header=TRUE)
 
 
 List of Variablesncreated by run_analysis.R 
@@ -77,3 +77,5 @@ List of Variablesncreated by run_analysis.R
  X - Created from merge of X_train.txt and X_test.txt into a variable X using rbind
  Y - Created from merge of y_train.txt and y_test.txt into a variable Y using rbind
  Subj - Created from merge of subject_train.txt and subject_test.txt into a variable Sub using rbind
+ featurerows - rows from features.txt with mean and std
+ 
