@@ -35,10 +35,15 @@ Use of rbind in these steps merges the data as follows
 •	y			10299 observations of 1 variable
 
 Step 2, then Extracts the list of rows in the features data set that contain Mean or STD measurements using the grep command.  This cuts the data down to just what is needed since the instructions say we just need mean and STD – which makes it more manageable.  
-The script then then subsets the X dataset based on that list of rows with mean and STD and sets the names to lower case using gsub command (which is listed in lecture notes as a good practice.)  This results in the data set X being cut down to 10299 observations of 66 variables
+The script then then subsets the X dataset based on that list of rows with mean and STD and sets the names to lower case using gsub command (which is listed in lecture notes as a good practice.)  
+This results in the data set X being cut down to 10299 observations of 66 variables
 
 Sample of X column headings after subset
- 	tbodyacc-mean-x	tbodyacc-mean-y	tbodyacc-mean-z	tbodyacc-std-x	tbodyacc-std-y
+ 	tbodyacc-mean-x	
+ 	tbodyacc-mean-y	
+ 	tbodyacc-mean-z	
+ 	tbodyacc-std-x	
+ 	tbodyacc-std-y
 
 In Step 3, the script reads activity labels from activity_labels.txt And then applies, lower case to those activity labels and replaces these lower case activity labels in the the names of the merged Y data set to give Y descriptive activity names called for in the assignment using the gsub command.
 
@@ -56,7 +61,12 @@ The script then  removes _and other () using the gsub command since the lecture 
 The script then merges all the data into a final data set that is saved as tidy_data_with_averages.txt.
 
 Sample of first few column headings of final file tidy_data_with_averages.txt
- 	subject	activity	tbodyacc.mean.x	tbodyacc.mean.y	tbodyacc.mean.z	tbodyacc.std.x
+ 	subject	
+ 	activity	
+ 	tbodyacc-mean-x	
+ 	tbodyacc-mean-y	
+ 	tbodyacc-mean-z	
+ 	tbodyacc-std-x
  	
 4. 	The text file is not pretty to the human eye.  To see pretty data set a variable equal to the text file
  	data <- read.table("tidy_data_with_averages.txt")
