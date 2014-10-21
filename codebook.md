@@ -80,5 +80,6 @@ List of Variablesncreated by run_analysis.R
  featurerows - rows from features.txt with mean and std
  cleantraintest - dataset that merges X, Y, Sub
  uniquesubjects - unique entries from the sub data set
+ numbersubjects - number of items in unique subjects calculated using length command
  
  
