@@ -76,3 +76,4 @@ List of Variablesncreated by run_analysis.R
 (does not repeat variables from original data sets and source files which are explained in original sources and noted above).
  X - Created from merge of X_train.txt and X_test.txt into a variable X using rbind
  Y - Created from merge of y_train.txt and y_test.txt into a variable Y using rbind
+ Subj - Created from merge of subject_train.txt and subject_test.txt into a variable Sub using rbind
