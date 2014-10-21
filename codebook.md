@@ -72,5 +72,7 @@ Sample of first few column headings of final file tidy_data_with_averages.txt
  	data <- read.table("tidy_data_with_averages.txt")
 
 
-List of Variables
- X - Created from merge of from X_train.txt and X_test.txt into a variable X using rbind
+List of Variablesncreated by run_analysis.R 
+(does not repeat variables from original data sets and source files which are explained in original sources and noted above).
+ X - Created from merge of X_train.txt and X_test.txt into a variable X using rbind
+ Y - Created from merge of y_train.txt and y_test.txt into a variable Y using rbind
